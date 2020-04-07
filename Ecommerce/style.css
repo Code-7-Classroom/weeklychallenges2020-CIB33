@@ -52,22 +52,11 @@ overflow: auto;
 #navbar ul li a:hover,
 #navbar ul li a.current {
     background-color: #444;
-    color: #f7c08a
+    color: yellow
 }
 
 #image-show {
     background: url(https://s3.amazonaws.com/tinycards/image/b79ada58f0ed4a2c8955a6e15e1a1101) no-repeat center/cover;
     height: 400px;
     width: 1450px
-}
-
-.clr {
-    clear: both;
-}
-
-#footer {
-    text-align: center;
-    background: #444;
-    color: #fff;
-    padding: 20px;  
 }
