@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-html, body {
-    font-family: 'Segoe UI', Verdana, Geneva, Tahoma;
-    line-height: 1.7em;
-}
-
 .container {
     margin: auto;
     width: 1100px;
@@ -54,9 +49,12 @@ overflow: auto;
     background-color: #444;
     color: yellow
 }
-
 #image-show {
-    background: url(https://s3.amazonaws.com/tinycards/image/b79ada58f0ed4a2c8955a6e15e1a1101) no-repeat center/cover;
-    height: 400px;
-    width: 1450px
+    background: url(https://www.dailymoss.com/wp-content/uploads/2018/11/nintendo-1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 720px;
+    width: 1000px;
+
 }

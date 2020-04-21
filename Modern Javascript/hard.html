@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dom Manipulation</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        
+        h1{
+            color:red;
+        }
+    
+        button{
+            padding: 10px
+        }
+    
+        .bg-red{
+            background-color: red;
+        }
+        
+        .bg-white{
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <button class="bg-red" onclick="red()"></button>
+    <button class="bg-white" onclick="white()"></button>
+    
+    <script>
+        function red(bgr){
+            document.body.style.backgroundColor="red"
+        }
+        function white(bgw){
+            document.body.style.backgroundColor="white"
+        }
+    </script>
+    
+</body>
+</html>
